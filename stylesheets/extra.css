@@ -1,0 +1,63 @@
+/* docs/stylesheets/extra.css (VERSIÓN CON LA SOLUCIÓN DEFINITIVA) */
+
+/* ====================================================================== */
+/* ==       ESTILOS PARA EL TEMA DE MKDOCS (PÁGINA PRINCIPAL)        == */
+/* ====================================================================== */
+
+/* --- Fondo de partículas para la página principal --- */
+#tsparticles {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  pointer-events: none; /* ¡LA SOLUCIÓN DEFINITIVA! Los clics pasarán a través de la animación. */
+}
+
+/* --- Logo fijado para modo oscuro --- */
+.md-header__button.md-logo img, .md-header__button.md-logo svg { display: none; }
+.md-header__button.md-logo::before {
+  content: ""; display: block; height: 1.5rem; width: 1.5rem;
+  background-image: url("../assets/PBLANCA.png");
+  background-size: contain; background-repeat: no-repeat; background-position: center;
+}
+
+/* --- Transparencia del encabezado fijada para modo oscuro --- */
+.md-header, .md-tabs {
+  background-color: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+}
+
+/* ====================================================================== */
+/* == ESTILOS PARA LA PÁGINA DE BIENVENIDA INDEPENDIENTE (index.html)  == */
+/* ====================================================================== */
+
+body.splash-page {
+  background-color: #141414;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif; /* ¡ESTA ES LA LÍNEA QUE APLICA LA FUENTE! */
+}
+body.splash-page > #tsparticles { z-index: 1; pointer-events: auto; /* En la splash page SÍ queremos que reaccione */ }
+#splash-screen {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+  background-color: transparent;
+  z-index: 2; display: flex; align-items: center; justify-content: center; text-align: center;
+}
+.splash-content h1 { font-size: 4.5rem; color: #fff; font-weight: 300; margin-bottom: 60px; min-height: 150px; }
+#enter-button {
+  display: inline-block; border: 2px solid #fff; background-color: transparent; color: #fff;
+  padding: 15px 40px; border-radius: 50px; text-decoration: none;
+  font-size: 1.1rem; font-weight: 500; text-transform: uppercase; letter-spacing: 1px;
+  transition: all 0.3s ease-in-out; opacity: 1; visibility: visible;
+}
+#enter-button:hover { background-color: #fff; color: #141414; transform: scale(1.05); cursor: pointer; }
+
+img.icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.2em;
+  margin-right: 0.3em;
+  filter: invert(1); /* ¡ESTA ES LA LÍNEA QUE LO VUELVE BLANCO! */
+}
