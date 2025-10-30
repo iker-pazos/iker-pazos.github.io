@@ -11,9 +11,9 @@ repo_url: https://github.com/iker-pazos/iker-pazos.github.io
 # ======================================================================
 nav:
   - 'INICIO': 'home.md'
-  - 'SOBRE MÍ': 'sobre-mi.md'
-  - 'PROYECTOS': 'proyectos.md'
-  - 'CONTACTO': 'contacto.md'
+  - 'SOBRE MÍ': 'home.md#sobre-mi'
+  - 'PROYECTOS': 'home.md#proyectos'
+  - 'CONTACTO': 'home.md#contacto'
 
 # ======================================================================
 # ==                      CONFIGURACIÓN DEL TEMA                      ==
@@ -23,14 +23,9 @@ theme:
   language: es
   logo: assets/PBLANCA.png
   favicon: assets/favicon.png
-  #custom_dir: overrides # Comentado, ya no es necesario
-  
-  # --- PAQUETES DE ICONOS A CARGAR ---
   icon:
     repo: fontawesome/brands/github
-    # Carga la colección de 'Simple Icons' para LinkedIn, etc.
     custom_dir: .icons/simple
-
   font:
     text: Roboto
     code: Roboto Mono
@@ -40,24 +35,26 @@ theme:
       accent: indigo
   features:
     - header.autohide
-    - navigation.tabs
     - navigation.tracking
     - navigation.instant
-    #- navigation.instant.progress
+    - navigation.sections
     - navigation.instant.animation
     - navigation.top
-    - toc.integrate
+    # - toc.integrate # Correctamente desactivado
     - announce.dismiss
 
 # ======================================================================
 # ==                   PERSONALIZACIONES AVANZADAS                    ==
 # ======================================================================
 extra_css:
+  - https://unpkg.com/aos@next/dist/aos.css 
   - stylesheets/extra.css
+
 extra_javascript:
   - javascript/tsparticles.bundle.min.js
   - javascript/particles-config.js
-
+  - https://unpkg.com/aos@next/dist/aos.js 
+  - javascript/custom.js      
 # ======================================================================
 # ==                  EXTENSIONES DE MARKDOWN                         ==
 # ======================================================================
@@ -72,7 +69,6 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - md_in_html
-  # --- EXTENSIONES PARA PROCESAR ICONOS ---
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg

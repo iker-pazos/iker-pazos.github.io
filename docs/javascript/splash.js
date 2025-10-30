@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
   if (splashTextElement) {
     const options = {
       strings: [
-        'HOLA, SOY IKER PAZOS.',
-        'BIENVENIDO A MI PAGINA WEB.',
-        '¡UNETE!.'
+        '¡BIENVENID@!',
+        'SOY IKER PAZOS',
+        '¡ACCEDE A MI PAGINA WEB!'
       ],
-      typeSpeed: 80,
-      backSpeed: 40,
+      typeSpeed: 100,
+      backSpeed: 50,
       backDelay: 1000,
-      startDelay: 100,
+      startDelay: 10,
       loop: true, // Lo ponemos en bucle para que siempre haya animación
       showCursor: true,
       cursorChar: '|',
