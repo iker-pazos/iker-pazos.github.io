@@ -58,10 +58,10 @@ Esta es una selección de los proyectos más representativos en los que he traba
 
 Estoy abierto a nuevas oportunidades y colaboraciones. Si mi perfil te resulta interesante, no dudes en contactarme a través de los siguientes canales:
 
--   :octicons-download-24: **Descargar CV:** [Mi Currículum Vitae (PDF)](assets/curriculum-iker-pazos.pdf){: .md-button .md-button--primary download="iker-pazos-cv.pdf" }
+-   :octicons-download-24: **Descargar CV:** [Mi Currículum Vitae (PDF)](assets/CV-IkerPazos.pdf){: .md-button .md-button--primary download="iker-pazos-cv.pdf" }
 
 <br>
 
 -   :octicons-mail-24: **Email:** [ikerpazosvazquez@gmail.com](mailto:ikerpazosvazquez@gmail.com)
--   <img src="../assets/icons/linkedin.svg" class="icon" /> **LinkedIn:** [Iker Pazos](https://www.linkedin.com/in/tu-perfil-de-linkedin)
+-   <img src="../assets/icons/linkedin.svg" class="icon" /> **LinkedIn:** [Iker Pazos](https://www.linkedin.com/in/iker-pazos-vazquez-23226736b/)
 -   :simple-github: **GitHub:** [@iker-pazos](https://github.com/iker-pazos)
