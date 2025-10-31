@@ -1,4 +1,4 @@
-/* docs/stylesheets/extra.css (VERSIÓN CON TABLA DE CONTENIDOS MEJORADA) */
+/* docs/stylesheets/extra.css (VERSIÓN FINAL CON ANIMACIÓN DE LOGO) */
 
 /* ====================================================================== */
 /* ==       ESTILOS PARA EL TEMA DE MKDOCS (PÁGINA PRINCIPAL)        == */
@@ -7,59 +7,41 @@
 .md-sidebar--primary { display: none; }
 #tsparticles { position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; pointer-events: none; }
 .md-header__button.md-logo img, .md-header__button.md-logo svg { display: none; }
-.md-header__button.md-logo::before { content: ""; display: block; height: 1.5rem; width: 1.5rem; background-image: url("../assets/PBLANCA.png"); background-size: contain; background-repeat: no-repeat; background-position: center; }
+
+/* --- Logo fijado para modo oscuro --- */
+.md-header__button.md-logo::before {
+  content: "";
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-image: url("../assets/PBLANCA.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out; /* ¡LÍNEA AÑADIDA para la animación suave! */
+}
+
+/* --- ¡NUEVA REGLA AÑADIDA para la animación del logo al pasar el ratón! --- */
+.md-header__button.md-logo:hover::before {
+  transform: scale(1.2); /* El logo crece un 15% */
+  cursor: pointer;
+}
+
 .md-header, .md-tabs { background-color: rgba(20, 20, 20, 0.7); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 .md-header .md-nav__link { transition: all 0.2s ease-in-out; padding-bottom: 0.5rem; border-bottom: 3px solid transparent; }
 .md-header .md-nav__link--active { color: white; font-weight: 700; border-bottom-color: var(--md-accent-fg-color); }
 
-.md-typeset hr {
-  height: 1px;
-  border: 0;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
-  margin: 4rem 0;
-}
-
-.md-card {
-  transition: all 0.3s ease-in-out;
-}
-.md-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-.md-typeset code {
-  background-color: rgba(128, 128, 128, 0.2);
-  border-radius: 4px;
-  padding: 0.2em 0.5em;
-  font-size: 0.8em;
-}
-
-/* Estilos profesionales para la Tabla de Contenidos (derecha) */
-.md-sidebar--secondary .md-nav {
-  background-color: rgba(30, 30, 30, 0.5);
-  border-radius: 9px;
-  padding: 1em 0;
-  border-left: 4px solid var(--md-accent-fg-color);
-}
-.md-sidebar--secondary .md-nav__title {
-  font-size: 0.9rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.05em; padding: 01rem 1rem 1rem;
-   color: #CCCCCC;
-}
-.md-sidebar--secondary .md-nav__link {
-  transition: all 0.2s ease-out; margin: 0.3em 0.10em;
-  padding: 0.4em 0.8em; border-radius: 4px;
-}
-.md-sidebar--secondary .md-nav__link:hover {
-  background-color: var(--md-accent-fg-color);
-  color: var(--md-accent-bg-color);
-  transform: translateX(5px);
-}
-.md-sidebar--secondary .md-nav__link--active {
-  font-weight: 700;
-  color: var(--md-accent-fg-color);
-}
-
+/* (El resto del archivo no cambia y sigue siendo el mismo) */
+.md-typeset hr { height: 1px; border: 0; background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)); margin: 4rem 0; }
+.md-card { transition: all 0.3s ease-in-out; }
+.md-card:hover { transform: translateY(-8px); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); }
+.md-typeset code { background-color: rgba(128, 128, 128, 0.2); border-radius: 4px; padding: 0.2em 0.5em; font-size: 0.8em; }
+.md-sidebar--secondary .md-nav { background-color: rgba(30, 30, 30, 0.5); border-radius: 9px; padding: 1em 0; border-left: 4px solid var(--md-accent-fg-color); }
+.md-sidebar--secondary .md-nav__title { font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 0.8rem 1rem 1rem; color: #CCCCCC; text-shadow: none !important; }
+.md-sidebar--secondary .md-nav__link { transition: all 0.2s ease-out; margin: 0.3em 0.8em; padding: 0.4em 0.8em; border-radius: 4px; }
+.md-sidebar--secondary .md-nav__link:hover { background-color: var(--md-accent-fg-color); color: var(--md-accent-bg-color); transform: translateX(5px); }
+.md-sidebar--secondary .md-nav__link--active { font-weight: 700; color: var(--md-accent-fg-color); }
 
 /* ====================================================================== */
 /* == ESTILOS PARA LA PÁGINA DE BIENVENIDA INDEPENDIENTE (index.html)  == */

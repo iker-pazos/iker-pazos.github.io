@@ -3,7 +3,7 @@
 # ======================================================================
 site_name: IPV WEB
 site_author: Iker Pazos
-site_description: Portfolio profesional y blog de Iker Pazos, especializado en desarrollo web.
+site_description: Portfolio profesional y blog de Iker Pazos, especializado en Inteligencia Artifial y Big Data.
 repo_url: https://github.com/iker-pazos/iker-pazos.github.io
 
 # ======================================================================
@@ -22,7 +22,7 @@ theme:
   name: material
   language: es
   logo: assets/PBLANCA.png
-  favicon: assets/favicon.png
+  favicon: assets/PBLANCA.png
   icon:
     repo: fontawesome/brands/github
     custom_dir: .icons/simple

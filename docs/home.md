@@ -1,24 +1,14 @@
 # BIENVENIDO/A A MI PAGINA WEB
-> SOY IKER PAZOS  
+<pre><code> Soy Iker Pazos </code></pre>
   
-> Estudiante de la especialización en INTELIGENCIA ARTIFICIAL Y BIG DATA.
+<pre><code>Estudiante de la especialización en Inteligencia Artificial y Big Data.</code></pre>
 
-Bienvenido a mi portfolio digital. Dentro de este porfolio te mostrare todos mis proyectos y información que te prodria interesar. 
-
-
+<pre><code>Bienvenido a mi portfolio digital. Dentro de este porfolio te mostrare todos mis proyectos y 
+información que te prodria interesar.</code></pre>
 
 ---
 
 ## SOBRE MÍ { id="sobre-mi" data-aos="fade-up" }
-
-!!! info "SOBRE MÍ"
-
-    *   Nací el **11 de julio del 2005.**
-    *   Actualmente resido en **Castro-Urdiales.**
-    *   Dispongo de carnet **A2** y **B**, con **coche propio** y posibilidad de desplazamiento.**
-    *   Realicé un curso de **impresión 3D** en el Centro Formación Somorrostro con diploma certificado.**
-    *   Realicé un **curso de mejora del inglés** en el Centro Formación Somorrostro.**
-    *   Soy un joven apasionado por la tecnología, con una sólida formación en el análisis de datos y la gestión de sistemas. Actualmente me estoy especializando en áreas como la **Inteligencia Artificial y Big Data**. Me considero una persona autodidacta, resolutiva y en constante aprendizaje, siempre buscando aplicar mis conocimientos en proyectos que aporten un valor real. Busco una oportunidad para demostrar mis habilidades y crecer profesionalmente en un entorno innovador.
 
 !!! info "EDUCACIÓN"
 
@@ -34,7 +24,7 @@ Bienvenido a mi portfolio digital. Dentro de este porfolio te mostrare todos mis
     *   :simple-grafana: **Grafana:** Diseño e implementación de dashboards interactivos para la monitorización y visualización de métricas en tiempo real, conectando con diversas fuentes de datos como InfluxDB.
     *   :simple-influxdb: **InfluxDB:** Administración de bases de datos de series temporales, incluyendo la ingesta, consulta y gestión de datos para análisis históricos y monitorización.
 
-!!! text "MIS OBJETIVOS"
+!!! info "MIS OBJETIVOS"
 
     * Mi interés principal se centra en la **Inteligencia Artificial, el Big Data y la Ciberseguridad**. Busco activamente oportunidades laborales, como prácticas o oportunidades laborales, donde pueda no solo aplicar mis conocimientos en análisis de datos y gestión de sistemas, sino también aprender de profesionales experimentados y contribuir al desarrollo de soluciones tecnológicas innovadoras. Estoy abierto a propuestas que me desafíen y me permitan crecer día a día.
 
@@ -42,6 +32,16 @@ Bienvenido a mi portfolio digital. Dentro de este porfolio te mostrare todos mis
 
     * **INGLÉS:** B1
     * **EUSKERA:** B1
+
+!!! info "SOBRE MÍ"
+
+    *   Nací el **11 de julio del 2005.**
+    *   Actualmente resido en **Castro-Urdiales.**
+    *   Dispongo de carnet **A2** y **B**, con **coche propio** y posibilidad de desplazamiento.**
+    *   Realicé un curso de **impresión 3D** en el Centro Formación Somorrostro con diploma certificado.**
+    *   Realicé un **curso de mejora del inglés** en el Centro Formación Somorrostro.**
+    *   Soy un joven apasionado por la tecnología, con una sólida formación en el análisis de datos y la gestión de sistemas. Actualmente me estoy especializando en áreas como la **Inteligencia Artificial y Big Data**. Me considero una persona autodidacta, resolutiva y en constante aprendizaje, siempre buscando aplicar mis conocimientos en proyectos que aporten un valor real. Busco una oportunidad para demostrar mis habilidades y crecer profesionalmente en un entorno innovador.
+
 ---
 <!--
 ## PROYECTOS { id="proyectos" data-aos="fade-up" }
@@ -76,7 +76,7 @@ Esta es una selección de los proyectos más representativos en los que he traba
 -->
 ## CONTACTO { id="contacto" data-aos="fade-up" }
 
-Estoy abierto a **nuevas oportunidades**. Si mi perfil te resulta **interesante**, no dudes en contactarme a través de los siguientes canales:
+Estoy abierto a **nuevas oportunidades**. Si mi perfil te resulta **interesante**, puedes contactarme a través de los siguientes canales:
 
 Accede a mi CV para obtener más información sobre mí. 
 
