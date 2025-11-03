@@ -1,10 +1,15 @@
 # BIENVENIDO/A A MI PAGINA WEB
-<pre><code> Soy Iker Pazos </code></pre>
-  
-<pre><code>Estudiante de la especialización en Inteligencia Artificial y Big Data.</code></pre>
+<pre><code>¡Bienvenido/a!
 
-<pre><code>Bienvenido a mi portfolio digital. Dentro de este porfolio te mostrare todos mis proyectos y 
-información que te prodria interesar.</code></pre>
+Soy Iker Pazos
+  
+Estudiante de la especialización en Inteligencia Artificial y Big Data.
+
+Te has unido a mi portfolio digital.
+
+Dentro de este porfolio te mostrare un poco mas sobre mí, datos interesantes, 
+mis objetivos, estudios y información que te prodria resultar interesante.
+</code></pre>
 
 ---
 
